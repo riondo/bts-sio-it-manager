@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="ncl8cMDgnTkXfhID-I65">
-    <mxGraphModel dx="824" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="571" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,26 +10,32 @@
         <mxCell id="7AogHrhFqrjJXCSP-shx-42" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Service &lt;/b&gt;( &lt;u&gt;code_service&lt;/u&gt;, nom_service, budget_annuel )" vertex="1">
           <mxGeometry height="30" width="320" x="80" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="7AogHrhFqrjJXCSP-shx-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Collaborateur&lt;/b&gt;&amp;nbsp;( &lt;u&gt;matricul&lt;/u&gt;, nom_collaborateur, prénom_collaborateur, email_collaborateur, telephone_collaborateur, date d&#39;embauche_collaborateur, matricule_collaborateur )" vertex="1">
+        <mxCell id="7AogHrhFqrjJXCSP-shx-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Collaborateur&lt;/b&gt;&amp;nbsp;( &lt;u&gt;matricule&lt;/u&gt;, nom_collaborateur, prénom_collaborateur, email_collaborateur, telephone_collaborateur, date d&#39;embauche_collaborateur, matricule_collaborateur, &lt;u&gt;#code_site,&lt;/u&gt;&amp;nbsp;#&lt;u&gt;code_service&lt;/u&gt; )" vertex="1">
           <mxGeometry height="40" width="690" x="80" y="220" as="geometry" />
         </mxCell>
         <mxCell id="7AogHrhFqrjJXCSP-shx-47" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Site &lt;/b&gt;( &lt;u&gt;code_site&lt;/u&gt;, nom_site, ville_site, adresse_site )" vertex="1">
           <mxGeometry height="30" width="490" x="80" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="7AogHrhFqrjJXCSP-shx-48" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Ticket&amp;nbsp;&lt;/b&gt;&amp;nbsp;(&lt;u&gt;num_ticket&lt;/u&gt;, date_ouverture, description_panne, niveau_urgence, statut, date_cloture )" vertex="1">
-          <mxGeometry height="30" width="480" x="80" y="290" as="geometry" />
+        <mxCell id="7AogHrhFqrjJXCSP-shx-48" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Ticket&amp;nbsp;&lt;/b&gt;&amp;nbsp;(&lt;u&gt;num_ticket&lt;/u&gt;, date_ouverture, description_panne, niveau_urgence, statut, date_cloture, #matricule, #num_serie, #id_categorie, &amp;nbsp;)" vertex="1">
+          <mxGeometry height="40" width="480" x="80" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="7AogHrhFqrjJXCSP-shx-49" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Matériel &lt;/b&gt;( &lt;u&gt;num_serie&lt;/u&gt;, marque, modele, date_achat, prix_achat_it, date_fin_garantie, etat )&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="440" x="80" y="350" as="geometry" />
+        <mxCell id="7AogHrhFqrjJXCSP-shx-49" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Matériel &lt;/b&gt;( &lt;u&gt;num_serie&lt;/u&gt;, marque, modele, date_achat, prix_achat_it, date_fin_garantie, etat,&amp;nbsp;#id_founisseur, &lt;u&gt;id_logiciel&lt;/u&gt;&amp;nbsp;)&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="440" x="80" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="7AogHrhFqrjJXCSP-shx-50" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Logiciel &lt;/b&gt;(&amp;nbsp; &lt;u&gt;id_locigiel,&lt;/u&gt;&amp;nbsp;nom_logiciel, editeur, version, type_licence )" vertex="1">
-          <mxGeometry height="30" width="380" x="80" y="410" as="geometry" />
+        <mxCell id="7AogHrhFqrjJXCSP-shx-50" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Logiciel &lt;/b&gt;(&amp;nbsp; &lt;u&gt;id_locigiel,&lt;/u&gt;&amp;nbsp;nom_logiciel, editeur, version, type_licence, )" vertex="1">
+          <mxGeometry height="30" width="450" x="80" y="490" as="geometry" />
         </mxCell>
         <mxCell id="7AogHrhFqrjJXCSP-shx-51" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Catégorie &lt;/b&gt;( &lt;u&gt;id_categorie&lt;/u&gt;, libelle, duree_amortissement_ans )" vertex="1">
-          <mxGeometry height="30" width="400" x="80" y="470" as="geometry" />
+          <mxGeometry height="30" width="400" x="80" y="550" as="geometry" />
         </mxCell>
         <mxCell id="7AogHrhFqrjJXCSP-shx-52" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Fournisseur&lt;/b&gt;&amp;nbsp;(&amp;nbsp;&lt;u&gt;id_foussineur&lt;/u&gt;, raison_social, contact_email, telephone, delai_livraison_jours )&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="520" x="80" y="530" as="geometry" />
+          <mxGeometry height="30" width="520" x="80" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="7AogHrhFqrjJXCSP-shx-53" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Affecter &lt;/b&gt;( date_attribution, date_restitution, commentaire_etat )&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="470" x="80" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7AogHrhFqrjJXCSP-shx-55" parent="1" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Installer &lt;/b&gt;( date_installation, cle_licence )" vertex="1">
+          <mxGeometry height="30" width="245" x="80" y="670" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
